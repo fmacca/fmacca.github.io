@@ -3,16 +3,25 @@ layout: default
 title: Home
 ---
 
-# Hi, I'm {{ site.title }}
-
-{{ site.description }}
-
-Welcome to my CV!
-[Download my CV](attached_files/Francesco_Maccarini_CV_Short_Web.pdf)
+Hi, I'm **{{ site.title }}**, {{ site.description }}
+[Download my CV](attached_files/Francesco_Maccarini_CV_Short_Web.pdf)!
 
 ## About Me
 
-I am a highly motivated and detail-oriented professional with {{ site.experience_years }} years of experience. I specialize in {{ site.skills }}.
+I am a Music Information Retrieval (MIR) researcher, with an Applied Mathematics and Computer Science background.
+I am currently pursuing my PhD, where I am researching **Artificial Intelligence** methods for Orchestration. I am
+interested in studying and developing tools for AI-assisted composition, and in conceiving models that can stimulate
+a creative collaboration between a human artist and an AI. I like to build models with a solid music theoretical base,
+and I devote a lot of effort to conceiving ways to represent these concepts in the computer.
+
+I am interested in studying **orchestration** techniques with a computational approach. In particular I am investigating
+the concept of *orchestral texture*, that I consider as a parameter with the same importance of melodic and harmonic
+content in an orchestral work. I have been focusing on the classical era of western common practice.
+
+In my thesis I mainly work with **symbolic representation of music**, like scores and MIDI files, but I am not unfamiliar
+with sound waves, spectrograms, and digital signal processing methods for audio.
+
+I am also interested in mathematical theories of tonal music and statistical analysis of social studies.
 
 ## Publications
 
