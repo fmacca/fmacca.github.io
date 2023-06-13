@@ -1,4 +1,39 @@
-theme: jekyll-theme-minimal
+# Site settings
 title: Francesco Maccarini
 description: PhD Candidate in Computer Science at Université de Lille
+baseurl: "" # If your site is not in the root of the domain, specify the path here (e.g., /cv)
+theme: minima # Change this to your desired theme
+
+# Build settings
+markdown: kramdown
+exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor", "_config.dev.yml", "README.md"]
+plugins:
+  - jekyll-feed
+
+# Navigation links
+nav_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Experience
+    url: /experience/
+  - title: Skills
+    url: /skills/
+  - title: Projects
+    url: /projects/
+  - title: Contact
+    url: /contact/
+
+# Social media links
+social_links:
+  - title: LinkedIn
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/francesco-maccarini/
+  - title: GitHub
+    icon: fab fa-github
+    url: https://github.com/fmacca
+
+# Custom variables
+custom_variable: Custom Value
 #logo: /figures/france.jpg
