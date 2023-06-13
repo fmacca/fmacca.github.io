@@ -1,6 +1,6 @@
 # Site settings
 title: Francesco Maccarini
-description: PhD Candidate in Computer Science at Université de Lille
+description: PhD Student in Computer Science at Université de Lille
 baseurl: "" # If your site is not in the root of the domain, specify the path here (e.g., /cv)
 theme: minima # Change this to your desired theme
 
